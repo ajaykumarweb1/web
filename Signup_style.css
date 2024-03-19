@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+  height: 100vh;
+  width: 100%;
+  background-image: url(Images/background1.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page{
+  height: 600px;
+  width: 400px;
+  /* backdrop-filter: blur(10px); */
+  background-color: rgb(199, 206, 209);;
+  border: none;
+  border-radius: 20px;
+  
+  
+
+}
+
+#name,#phone_no, #email_id, #password{
+  height: 40px;
+  width: 75%;
+  border: none;
+  border-radius: 30px;
+  margin-top: 30px;
+  margin-left: 5%;
+  font-size: 16px;
+  padding-left: 50px;
+
+}
+#gender{
+  height: 40px;
+  width: 350px;
+  border: none;
+  border-radius: 30px;
+  margin-top: 30px;
+  margin-left: 5%;
+  font-size: 16px;
+  padding-left: 50px;
+
+}
+
+button{
+  height: 40px;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 30px;
+  border-radius: 30px;
+  background-color: green;
+  border: none;
+  color: white;
+  font-size: larger;
+  
+
+
+}
+
+h1{
+  color: rgb(6, 6, 58);
+  text-align: center;
+  margin-top: 20px;
+}
+p{
+  margin-top: 20px;
+  margin-left: 7%;
+  font-size: 16px;
+
+
+
+}
+
+#user_name_icon{
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 35px;
+  color: rgb(6, 6, 51); 
+}
+
+#mobile_icon, #email_icon, #password_icon{
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 35px;
+  color: rgb(6, 6, 51); 
+
+}
